@@ -1,0 +1,35 @@
+# Secrets
+.env
+*.env.local
+*.pem
+*.key
+*.crt
+*.csr
+infra/certs/
+infra/mosquitto/passwd
+
+# Node (API, dashboard)
+node_modules/
+dist/
+build/
+
+# Python (IA)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.pt
+*.onnx
+
+# Firmware (PlatformIO)
+.pio/
+firmware/include/secrets.h
+
+# Docker / logs
+*.log
+infra/data/
+
+# OS / éditeur
+.DS_Store
+Thumbs.db
+.vscode/
